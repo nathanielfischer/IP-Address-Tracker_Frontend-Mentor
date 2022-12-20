@@ -12,12 +12,8 @@ checkIpInput();
 
 // ---------------------- "EVENT LISTENER" ----------------------
 
-$("#button-addon2").click(function () {
+$(".btn").click(function () {
   checkIpInput();
-});
-
-$(".toggle").click(function () {
-  toggleMode();
 });
 
 

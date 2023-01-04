@@ -63,7 +63,7 @@ function updateMap(lat, lon) {
 /**
  * Gets data from Input field
  * If no Input: it will use clients IP address
- * TODO: handle errors
+ * If error on Geoloaction API: set map to munich
  */
 function checkIpInput() {
   let ip = $(".form-control")[0].value;
@@ -88,7 +88,18 @@ function checkIpInput() {
       const location = data.city + ", " + data.country;
       setStats(data.query, location, data.timezone, data.isp);
     }, function (e) {
-      // handle errors
+      // handle errors of IP Geolocation API
+      console.error("Error: IP Geolocation API");
+
+      //set Map to munich, if there is an error
+      if (map === undefined) {
+        initializeMap(48.1238198, 11.594644);
+      } else {
+        updateMap(48.1238198, 11.594644);
+      }
+
+      //set stats to error
+      setStats("There", "is", "an", "error");
     });
 }
 

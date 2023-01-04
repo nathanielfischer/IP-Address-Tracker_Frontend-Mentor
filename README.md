@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [URL](https://nathanielfischer.github.io/IP-Address-Tracker_Frontend-Mentor)
+- Solution URL: [URL](https://nathanielfischer.github.io/IP-Address-Tracker_Frontend-Mentor) (Currently not working due to API being only available throuh http in the free version, not through https.)
 
 ## My process
 
@@ -50,9 +50,8 @@ Furthermore I learned how to implement a functional map on a website.
 
 ### Useful resources
 
-- [Leafletjs](https://leafletjs.com/examples/quick-start/) - Open-source JavaScript library
-for mobile-friendly interactive maps.
-- [IP Geolocation API](https://ip-api.com/docs/api:json) - Free API to get an IP's Geolocation informatin.
+- [Leafletjs](https://leafletjs.com/examples/quick-start/) - Open-source JavaScript library for mobile-friendly interactive maps.
+- [IP Geolocation API](https://ip-api.com/docs/api:json) - Free API to get an IP's geolocation information.
 
 ## Author
 

@@ -110,7 +110,7 @@ p {
   width: 70%;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
 
   .card-search,
   .card-ip {
@@ -118,16 +118,46 @@ p {
   }
 }
 
-@media (min-width: 576px) and (max-width: 1199.98px) {
+@media (min-width: 768px) and (max-width: 1199.98px) {
+
+  .card-search{
+    width: 50%;
+  }
   .card-ip {
-    padding: 7% 5%;
+    width: 50%;
   }
 }
 
-@media (max-width: 575.98px) {
+@media (min-width: 1199px) and (max-width: 1399.98px) {
+
+  .card-search{
+    width: 50%;
+  }
+  .card-ip {
+    width: 80%;
+  }
+}
+
+
+/* @media (min-width: 576px) and (max-width: 1199.98px) {
+  .card-ip {
+    padding: 7% 5%;
+  }
+} */
+
+@media (max-width: 767.98px) {
   .card-ip {
     margin-top: 5%;
     padding: 5% 5%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+
+  .card-ip {
+    margin-top: 3%;
+    padding: 3% 3%;
     text-align: center;
   }
 }
@@ -199,7 +229,7 @@ input[type="search"] {
 } */
 
 
-@media (max-width: 575.98px) {
+@media (max-width: 1199.98px) {
   .border-end {
     border-right: none !important;
     margin-bottom: 2%;

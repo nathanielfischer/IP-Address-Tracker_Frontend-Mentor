@@ -29,7 +29,7 @@ body {
   color: hsl(0, 0%, 17%);
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 1399.98px) {
   body {
     background: url(images/pattern-bg.png);
   }
